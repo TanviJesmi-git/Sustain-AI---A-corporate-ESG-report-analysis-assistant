@@ -65,6 +65,11 @@ This repository is designed for document-grounded Q&A over sustainability disclo
 │   ├── qa_engine.py
 │   ├── retrieve.py
 │   └── test_retrieval.py
+├── assets/
+│   ├── 1.svg
+│   ├── 2.svg
+│   ├── 3.svg
+│   └── 4.svg
 └── README.md
 ```
 
@@ -85,6 +90,24 @@ User questions are matched against indexed document chunks and the most relevant
 ### Company-aware retrieval
 
 The application tracks company metadata and can filter by company when retrieving evidence, which helps when multiple reports are uploaded in the same session.
+
+## Screenshots
+
+### 1. Upload and session setup
+
+![ESG app upload interface](assets/1.svg)
+
+### 2. Querying ESG metrics from uploaded reports
+
+![ESG app chat response](assets/2.svg)
+
+### 3. Scope 1 emissions answer example
+
+![Scope 1 emissions answer](assets/3.svg)
+
+### 4. Cross-company comparison workflow
+
+![Cross-company ESG comparison](assets/4.svg)
 
 ## Setup
 
@@ -168,4 +191,3 @@ Contributions are welcome. You can:
 ## Contact
 
 For questions or collaboration, please contact the repository owner or open an issue in the GitHub repository.
-

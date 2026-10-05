@@ -1,0 +1,54 @@
+<svg width="1400" height="860" viewBox="0 0 1400 860" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0f1725"/>
+      <stop offset="100%" stop-color="#090f1a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1400" height="860" fill="url(#bg)"/>
+  <rect x="0" y="0" width="360" height="860" fill="#111b2a"/>
+  <rect x="28" y="30" width="300" height="52" rx="12" fill="#1f2a39" stroke="#3f4a5d"/>
+  <text x="62" y="62" font-family="Arial, sans-serif" font-size="22" fill="#edf2ff">🔄 New Chat / Clear Session</text>
+  <line x1="28" y1="110" x2="328" y2="110" stroke="#2a3a4f"/>
+  <text x="30" y="180" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#edf2ff">📄 Upload reports for this</text>
+  <text x="30" y="212" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#edf2ff">session</text>
+  <text x="30" y="270" font-family="Arial, sans-serif" font-size="18" fill="#b7c3d9">Upload up to 5 ESG reports. They’re indexed</text>
+  <text x="30" y="298" font-family="Arial, sans-serif" font-size="18" fill="#b7c3d9">for this session only.</text>
+  <rect x="30" y="340" width="300" height="108" rx="16" fill="#171f2d" stroke="#46556b"/>
+  <rect x="46" y="356" width="40" height="40" rx="8" fill="#0f1724" stroke="#ccd7ef"/>
+  <text x="57" y="381" font-size="24">📄</text>
+  <text x="97" y="378" font-family="Arial, sans-serif" font-size="24" font-weight="600" fill="#f3f6fb">TCS_2023_2024.pdf</text>
+  <text x="98" y="412" font-family="Arial, sans-serif" font-size="16" fill="#9aa9bf">2.0MB</text>
+  <text x="280" y="410" font-family="Arial, sans-serif" font-size="28" fill="#dfe8ff">×</text>
+  <rect x="30" y="470" width="300" height="108" rx="16" fill="#171f2d" stroke="#46556b"/>
+  <rect x="46" y="486" width="40" height="40" rx="8" fill="#0f1724" stroke="#ccd7ef"/>
+  <text x="57" y="511" font-size="24">📄</text>
+  <text x="97" y="508" font-family="Arial, sans-serif" font-size="24" font-weight="600" fill="#f3f6fb">wipro_2023_2024.pdf</text>
+  <text x="98" y="542" font-family="Arial, sans-serif" font-size="16" fill="#9aa9bf">6.5MB</text>
+  <text x="280" y="540" font-family="Arial, sans-serif" font-size="28" fill="#dfe8ff">×</text>
+  <circle cx="326" cy="638" r="24" fill="#1f2a39" stroke="#576a83"/>
+  <text x="316" y="646" font-size="28">＋</text>
+
+  <text x="460" y="148" font-family="Arial, sans-serif" font-size="40" font-weight="700" fill="#edf2ff">🌱 ESG Report Analysis Assistant</text>
+  <text x="470" y="202" font-family="Arial, sans-serif" font-size="22" fill="#b9c5d6">Upload reports in the sidebar, then ask questions with page-level citations.</text>
+
+  <rect x="470" y="270" width="740" height="96" rx="18" fill="#182231" stroke="#394862"/>
+  <circle cx="520" cy="318" r="23" fill="#f44b4b"/>
+  <text x="508" y="328" font-size="28">🧑</text>
+  <text x="560" y="328" font-family="Arial, sans-serif" font-size="30" fill="#f1f5ff">Hi</text>
+
+  <rect x="470" y="390" width="740" height="92" rx="18" fill="#1c2433" stroke="#394862"/>
+  <circle cx="520" cy="436" r="21" fill="#f5a623"/>
+  <text x="509" y="445" font-size="24">🧑</text>
+  <text x="560" y="444" font-family="Arial, sans-serif" font-size="28" fill="#edf2ff">Hello! How can I help you analyze the ESG reports based on the provided evidence?</text>
+
+  <rect x="470" y="500" width="740" height="92" rx="18" fill="#1c2433" stroke="#394862"/>
+  <circle cx="520" cy="546" r="21" fill="#f44b4b"/>
+  <text x="509" y="555" font-size="24">🧑</text>
+  <text x="560" y="554" font-family="Arial, sans-serif" font-size="28" fill="#edf2ff">What are scope 1 emissions of TCS?</text>
+
+  <rect x="470" y="620" width="740" height="120" rx="18" fill="#171f2d" stroke="#3d4f68"/>
+  <text x="520" y="655" font-family="Arial, sans-serif" font-size="24" fill="#dfe8ff">Ask a question about the uploaded reports...</text>
+  <rect x="1160" y="648" width="32" height="32" rx="8" fill="#1f2a39" stroke="#dfe8ff"/>
+  <text x="1175" y="672" font-size="22" fill="#edf2ff">↑</text>
+</svg>
