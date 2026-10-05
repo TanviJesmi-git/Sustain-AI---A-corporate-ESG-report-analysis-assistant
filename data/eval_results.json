@@ -1,0 +1,99 @@
+[
+  {
+    "id": "tcs_scope1_basic",
+    "category": "single_fact",
+    "checks": {
+      "value_found": true,
+      "page_retrieved": true,
+      "overall_pass": true
+    },
+    "answer_preview": "Based on the provided evidence, TCS reports its **current** Scope 1 emissions as follows:\n\n* **Total Scope 1 emissions:** \n  * **FY 2023\u201324:** 21,949."
+  },
+  {
+    "id": "tcs_scope2_basic",
+    "category": "single_fact",
+    "checks": {
+      "value_found": true,
+      "page_retrieved": true,
+      "overall_pass": true
+    },
+    "answer_preview": "Based on the provided evidence, TCS's Total Scope 2 emissions are:\n\n* **FY 2023-24:** 73,722.0 metric tonnes of CO2 equivalent (TCS, FY 2023-2024, Pag"
+  },
+  {
+    "id": "wipro_scope1_basic",
+    "category": "single_fact",
+    "checks": {
+      "value_found": true,
+      "page_retrieved": true,
+      "overall_pass": true
+    },
+    "answer_preview": "Based on Wipro's reported data for FY 2023-2024, the current reported total for Scope 1 emissions is **6,515 tCO2e** (Wipro, FY 2023-2024, p. 43). \n\nT"
+  },
+  {
+    "id": "wipro_scope2_basic",
+    "category": "single_fact",
+    "checks": {
+      "value_found": true,
+      "page_retrieved": true,
+      "overall_pass": true
+    },
+    "answer_preview": "Based on the provided evidence, Wipro reports its Scope 2 emissions in the following ways:\n\n* **Current Emissions:** Wipro reports a Scope 2 emission "
+  },
+  {
+    "id": "tcs_water_basic",
+    "category": "single_fact",
+    "checks": {
+      "value_found": true,
+      "page_retrieved": true,
+      "overall_pass": true
+    },
+    "answer_preview": "Based on the provided evidence, TCS reports two different figures for total water consumption depending on the operational scope (e.g., total operatio"
+  },
+  {
+    "id": "compare_scope1",
+    "category": "comparison",
+    "checks": {
+      "value_found": true,
+      "overall_pass": true
+    },
+    "answer_preview": "Based on the provided evidence, a direct comparison of the current Scope 1 emissions between TCS and Wipro is not possible because Wipro reports its S"
+  },
+  {
+    "id": "compare_water_mismatch",
+    "category": "comparability_mismatch",
+    "checks": {
+      "behavior_found": true,
+      "overall_pass": true
+    },
+    "answer_preview": "Based on the provided evidence, a direct comparison between TCS's and Wipro's water consumption cannot be made because the companies report their wate"
+  },
+  {
+    "id": "wipro_target_vs_current",
+    "category": "target_extraction",
+    "checks": {
+      "value_found": true,
+      "avoided_bad_phrasing": true,
+      "page_retrieved": true,
+      "overall_pass": true
+    },
+    "answer_preview": "Based on Wipro's reported data, their water efficiency targets and goals include:\n\n* **Freshwater Efficiency Improvement Target:** Wipro aims to impro"
+  },
+  {
+    "id": "wipro_biodiversity_absent",
+    "category": "absence_handling",
+    "checks": {
+      "behavior_found": true,
+      "overall_pass": true
+    },
+    "answer_preview": "Based on the provided evidence, Wipro does not report specific quantitative biodiversity impact numbers (such as under GRI 304-1, GRI 304-2, GRI 304-3"
+  },
+  {
+    "id": "nonexistent_metric",
+    "category": "absence_handling",
+    "checks": {
+      "behavior_found": true,
+      "overall_pass": true
+    },
+    "answer_preview": "Based on the provided evidence, evidence regarding TCS's ocean plastic recovery rate is genuinely absent. TCS reports data on total plastic waste gene"
+  }
+]

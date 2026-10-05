@@ -1,0 +1,79 @@
+[
+  {
+    "id": "tcs_scope1_basic",
+    "question": "What are TCS's Scope 1 emissions?",
+    "category": "single_fact",
+    "expected_company": "TCS",
+    "expected_page": 27,
+    "expected_value_contains": ["21,949", "21949"]
+  },
+  {
+    "id": "tcs_scope2_basic",
+    "question": "What are TCS's Scope 2 emissions?",
+    "category": "single_fact",
+    "expected_company": "TCS",
+    "expected_page": 27,
+    "expected_value_contains": ["73,722", "73722"]
+  },
+  {
+    "id": "wipro_scope1_basic",
+    "question": "What are Wipro's Scope 1 emissions?",
+    "category": "single_fact",
+    "expected_company": "WIPRO",
+    "expected_page": 43,
+    "expected_value_contains": ["6,515", "6515"]
+  },
+  {
+    "id": "wipro_scope2_basic",
+    "question": "What are Wipro's Scope 2 emissions?",
+    "category": "single_fact",
+    "expected_company": "WIPRO",
+    "expected_page": 43,
+    "expected_value_contains": ["32,413", "32413"]
+  },
+  {
+    "id": "tcs_water_basic",
+    "question": "What is TCS's total water consumption?",
+    "category": "single_fact",
+    "expected_company": "TCS",
+    "expected_page": 25,
+    "expected_value_contains": ["24,67,342", "2467342"]
+  },
+  {
+    "id": "compare_scope1",
+    "question": "Compare Scope 1 emissions of TCS and Wipro.",
+    "category": "comparison",
+    "expected_company": ["TCS", "WIPRO"],
+    "expected_value_contains": ["21,949", "6,515"]
+  },
+  {
+    "id": "compare_water_mismatch",
+    "question": "How does TCS's water consumption compare to Wipro's?",
+    "category": "comparability_mismatch",
+    "expected_company": ["TCS", "WIPRO"],
+    "expected_behavior_contains": ["not possible", "different units", "not comparable"]
+  },
+  {
+    "id": "wipro_target_vs_current",
+    "question": "What is Wipro's water efficiency target?",
+    "category": "target_extraction",
+    "expected_company": "WIPRO",
+    "expected_page": 29,
+    "expected_value_contains": ["70 liters", "2030"],
+    "must_not_contain": ["achieved", "currently at 70"]
+  },
+  {
+    "id": "wipro_biodiversity_absent",
+    "question": "Does Wipro report specific biodiversity impact numbers?",
+    "category": "absence_handling",
+    "expected_company": "WIPRO",
+    "expected_behavior_contains": ["not found", "not reported", "not disclosed", "absent", "does not", "no data", "not available"]
+  },
+  {
+    "id": "nonexistent_metric",
+    "question": "What is TCS's ocean plastic recovery rate?",
+    "category": "absence_handling",
+    "expected_company": "TCS",
+    "expected_behavior_contains": ["not found", "not reported", "not disclosed", "absent", "does not", "no data", "not available"]
+  }
+]
